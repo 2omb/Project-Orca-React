@@ -1,0 +1,123 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.home-gallery-card {
+  width: 100%;
+  height: 1108px;
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-image {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+.home-navlink {
+  left: 0px;
+  color: #fbf6f6;
+  right: 0px;
+  width: var(--dl-size-size-large);
+  bottom: 51px;
+  height: var(--dl-size-size-small);
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7f7f71;
+}
+.home-heading {
+  top: 69px;
+  left: 102px;
+  color: #040404;
+  width: 80%;
+  height: 73px;
+  margin: auto;
+  position: absolute;
+  font-size: 150%;
+  font-style: normal;
+  text-align: center;
+  font-family: Trade Winds;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+.home-heading1 {
+  top: 2px;
+  left: 0px;
+  color: #000000;
+  right: 0px;
+  width: 80%;
+  height: 73px;
+  margin: auto;
+  position: absolute;
+  font-size: 400%;
+  font-style: normal;
+  text-align: center;
+  font-family: Trade Winds;
+  font-weight: 500;
+  text-shadow: 5px 3px 0 #a2a208;
+  padding-bottom: 12px;
+}
+.home-text {
+  left: 0px;
+  color: #ff5600;
+  right: 0px;
+  width: 80%;
+  bottom: 126px;
+  margin: auto;
+  position: absolute;
+  font-size: 80%;
+  font-style: normal;
+  text-align: center;
+  font-family: Arial;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #000000;
+}
+@media(max-width: 991px) {
+  .home-heading {
+    left: 0px;
+    color: rgb(4, 4, 4);
+    right: 0px;
+    width: 80%;
+    margin: auto;
+    font-style: normal;
+    font-family: Trade Winds;
+    font-weight: 500;
+  }
+}
+@media(max-width: 767px) {
+  .home-gallery-card {
+    flex-direction: column;
+  }
+  .home-heading {
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    margin: auto;
+    font-size: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .home-heading {
+    top: 60px;
+    left: 2px;
+    color: rgb(4, 4, 4);
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    font-style: normal;
+    font-family: Trade Winds;
+  }
+}

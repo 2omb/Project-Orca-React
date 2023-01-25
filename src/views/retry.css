@@ -1,0 +1,29 @@
+.retry-container {
+  width: 100%;
+  display: contents;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+}
+.retry-container1 {
+  width: fit-content;
+  height: 100%;
+  display: contents;
+  align-self: center;
+  align-items: inherit;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+}
+.retry-text {
+  align-self: center;
+}
+.retry-text1 {
+  align-self: center;
+}
+.retry-text2 {
+  align-self: center;
+}
